@@ -136,7 +136,7 @@ export default function EnhancedTableHead(props) {
   const [jobListingsLength, setJobListingsLength] = useState(0);
   const [companyFilter, setCompanyFilter] = useState("");
   const [typeFilter, setTypeFilter] = useState("");
-  const baseUri = `http://localhost:8080/job-listings`;
+  const baseUri = `https://prep-buddy-api.onrender.com/job-listings`;
 
   //Backend functionalities for fetch data is called using Fetch API
   const fetchTableDetails = async () => {

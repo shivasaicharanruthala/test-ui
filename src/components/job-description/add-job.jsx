@@ -72,7 +72,7 @@ export default function EmployeeForm({
       console.log("1: ");
       //Axios is used for Request method related functionalities
       axios({
-        url: `http://localhost:8080/job-listings/${updateData.id}`,
+        url: `https://prep-buddy-api.onrender.com/job-listings/${updateData.id}`,
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -89,7 +89,7 @@ export default function EmployeeForm({
         fetchTableDetails();
       });
     } else {
-      const response = await fetch("http://localhost:8080/job-listings", {
+      const response = await fetch("https://prep-buddy-api.onrender.com/job-listings", {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
         mode: "cors", // no-cors, *cors, same-origin
         cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
