@@ -1,0 +1,29 @@
+// Styles to be applied on upvotes
+.upvotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px
+}
+
+// Styles to be applied on upvote-btn
+.upvote-btn {
+    &:hover {
+        cursor: pointer;
+        color:green;
+    }
+}
+
+// Styles to be applied on count
+.count {
+    margin-left: 12px;
+}
+
+// Styles to be applied on downvote btn
+.downvote-btn {
+    &:hover {
+        cursor: pointer;
+        color:red;
+    }
+}
+

@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+
+// Styles to be applied on comment header
+.comment-header {
+    margin-left: 25px
+}
+
+// Styles to be applied on comment textbox
+.comment-textbox {
+    width: 1000px;
+     margin-left: 65px
+}
+
+// Styles to be applied on comment grid
+.comment-grid {
+    display: flex;
+    flex-direction: row
+}
+
+// Styles to be applied on comment user
+.comment-user {
+    margin: 0;
+}

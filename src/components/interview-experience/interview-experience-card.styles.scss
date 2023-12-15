@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+
+// Styles to be applied on card title
+.card-title {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f9fa;
+}
+
+// Styles to be applied on card header
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+// Styles to be applied on card chip
+.chip {
+    margin-left: 50px;
+    //margin-top: 16
+}
+
+// Styles to be applied on card Icons
+.cardIcons {
+    margin-left: 625px;
+    margin-top: 2px;  
+}
+
+// Styles to be applied on edit, delete icons
+.edit-delete-icons {
+    margin-top: 15;
+}
+
+// Styles to be applied on card row
+.cardRow {
+    height: 250px;
+    display: flex; 
+    flex-direction: row;
+    background-color: #F7FBFF;
+}
+
+.experience {
+    margin-left: 20px;
+    overflow-y: auto;
+}
